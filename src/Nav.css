@@ -1,0 +1,38 @@
+.main-nav {
+    background: #a4caff;
+    padding: 3px 10px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.main-nav ul {
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li:first-child {
+    margin-left: 100px;
+}
+
+.main-nav ul li:not(:first-child) {
+    margin-left: 20px
+}
+
+.main-nav a, a:visited, a:active {
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #3E4D61
+}
+
+.main-nav a:hover {
+    color: #FFE0A3;
+}
+
+@font-face {
+    font-family: "Sour Gummy";
+    src: url("../public/SourGummy-VariableFont_wdth\,wght.ttf") format("truetype");
+}
