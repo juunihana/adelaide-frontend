@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Women's Clothing</title>
+    <style rel="stylesheet">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .root-layout {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-nav, .footer-layout {
+            background: #000;
+            color: #fff;
+        }
+
+        .main-nav-layout {
+            display: flex;
+            min-width: 1020px;
+            width: 1020px;
+            margin: auto;
+        }
+
+        .main-nav a, .main-nav a:visited, .main-nav a:active {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .main-nav {
+            padding: 20px;
+        }
+
+        .sub-nav {
+            padding: 20px;
+            display: flex;
+            border: solid 1px black;
+        }
+
+        .filters {
+            flex: 2;
+        }
+
+        .categories-nav {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content-layout {
+            margin-top: 20px;
+            padding: 20px;
+            border: solid 1px black;
+            display: flex;
+        }
+
+        .main-layout {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-nav-layout, .main-layout, footer {
+            min-width: 1020px;
+            width: 1020px;
+            margin: auto;
+        }
+
+        .item-list-layout {
+            margin-left: 20px;
+        }
+
+        .footer-layout {
+            padding: 20px;
+        }
+
+        footer {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<div class="root-layout">
+    <div class="main-nav">
+        <div class="main-nav-layout">
+            <a href="#">Women</a>
+            <a href="#">Men</a>
+            <a href="#">Kids</a>
+            <a href="#">Brands</a>
+            <a href="#">Sale</a>
+            <a href="#">About</a>
+        </div>
+    </div>
+    <div class="main-layout">
+        <div class="sub-nav">
+            <div class="filters">
+                Filters
+            </div>
+            <div class="search-bar">
+                Search bar
+            </div>
+        </div>
+        <div class="content-layout">
+            <nav class="categories-nav">
+                <a href="#">Jeans</a>
+                <a href="#">Jackets</a>
+                <a href="#">Skirts</a>
+                <a href="#">Sportswear</a>
+                <a href="#">Dresses</a>
+            </nav>
+            <div class="item-list-layout">
+                <div class="item-list-card">
+                    Item
+                </div>
+                <div class="item-list-card">
+                    Item
+                </div>
+                <div class="item-list-card">
+                    Item
+                </div>
+                <div class="item-list-card">
+                    Item
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-layout">
+        <footer>Adelaide Clothing Shop 2025</footer>
+    </div>
+</div>
+</body>
+</html>

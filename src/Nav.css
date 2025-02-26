@@ -1,8 +1,9 @@
 .main-nav {
     background: #a4caff;
-    padding: 3px 10px;
-    margin: 5px;
-    border-radius: 15px;
+    flex: 1;
+    /*padding: 3px 10px;*/
+    /*margin: 5px;*/
+    /*border-radius: 15px;*/
 }
 
 .main-nav ul {
@@ -34,5 +35,5 @@
 
 @font-face {
     font-family: "Sour Gummy";
-    src: url("../public/SourGummy-VariableFont_wdth\,wght.ttf") format("truetype");
+    src: url("../public/SourGummy.ttf") format("truetype");
 }

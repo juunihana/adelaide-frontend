@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Nav from './Nav';
 import reportWebVitals from './reportWebVitals';
+import MainLayout from "./MainLayout";
+import ContentLayout from "./ContentLayout";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav />
+      <MainLayout>
+          <Nav/>
+          <ContentLayout></ContentLayout>
+      </MainLayout>
   </React.StrictMode>
 );
 
